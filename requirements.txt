@@ -1,0 +1,52 @@
+# Essential Flask and production dependencies
+flask>=2.0.0
+gunicorn  # For running Flask in production
+
+# Web scraping and HTTP handling
+requests
+aiohttp
+browser_cookie3
+fake-useragent
+twocaptcha
+
+# WebSocket handling (if needed)
+websocket-client
+
+# Parsing and manipulation libraries
+beautifulsoup4  # `bs4` is BeautifulSoup, should be named this in requirements
+py-arkose-generator  # If you're working with Arkose labs' captcha
+PyExecJS  # For JavaScript execution, if used in your app
+js2py  # For JavaScript execution in Python
+
+# Cryptography and security
+pycryptodome
+tls-client
+retrying  # For retrying failed network requests
+
+# User data handling and email
+names
+pydantic  # Data validation
+pymailtm  # For disposable email addresses
+
+# Streamlit (if you want to use for visual display)
+streamlit
+
+# For automation and browsers
+selenium
+undetected-chromedriver
+tornado>=6.3.2  # Required by some libraries like Selenium for async
+
+# Misc utilities and helpers
+Levenshtein
+random-password-generator
+colorama
+platformdirs
+flask-babel>=2.0.0  # For localization
+asyncstdlib
+async_property
+pydantic
+numpy>=1.22.2  # To avoid vulnerabilities
+Brotli  # Compression library
+
+# For working with web requests
+curl_cffi
